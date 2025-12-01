@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./button.component.css']
 })
 export class ButtonComponent {
-
+ login(){
+  alert('button is working')
+ }
 }

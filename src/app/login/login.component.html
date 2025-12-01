@@ -1,6 +1,6 @@
 <div class="container" [formGroup]="loginForm">
   <label>Email</label>
-  <input type="email" formControlName="emailOrMobile"><br>
+  <input type="email" formControlName="Username"><br>
   <label>Password</label>
   <input  [type]="showPassword ? 'text' : 'password'" formControlName="password">
   <i [class]="showPassword ? 'bi bi-eye' : 'bi bi-eye-slash'" (click)="visibility()"></i>

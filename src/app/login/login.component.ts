@@ -11,7 +11,7 @@ import { LoginService } from '../login.service';
 export class LoginComponent {
 
   public loginForm:FormGroup= new FormGroup({
-    emailOrMobile: new FormControl(),
+    Username: new FormControl(),
     password: new FormControl()
   })
 
